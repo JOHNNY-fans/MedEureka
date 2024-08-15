@@ -1,2 +1,22 @@
-# MedEureka
-MedEureka: A Medical Domain Benchmark for Multi-Granularity and Multi-Text-Type Embedding-Based Retrieval
+| **Task**   | ID   | **Source**                 | **Language** | **Annotation**     | **Phrase** | **Sen.** | **SQL** | **Para.** | **Doc.** | **# Examples(train/dev/test)** | **# Avg Len (query/target)** |
+|------------|------|----------------------------|--------------|--------------------|------------|----------|---------|-----------|----------|---------------------------------|--------------------------------|
+| **Table**  | I    | Website                    | zh           | Auto & Human        | -          | ✔️        | -       | -         | ✔️        | 1,776/592/592                   | 105.80/2811.27                |
+|            | II   | Website                    | en           | Auto & Human        | -          | ✔️        | -       | -         | ✔️        | 806/269/269                     | 60.08/561.42                  |
+| **Literature** | I    | RJUA-QA                   | zh           | Auto & Human        | -          | ✔️        | -       | ✔️        | -        | 360/120/120                     | 204.11/264.25                 |
+|            | II   | COVID-QA                   | en           | Auto & Human        | -          | ✔️        | -       | -         | ✔️        | 979/327/326                     | 12.77/6065.79                 |
+| **KB**     | I    | Website                    | zh           | Auto & Human        | -          | ✔️        | -       | ✔️        | -        | 985/330/328                     | 188.76/192.09                 |
+|            | II   | Website                    | zh           | Auto & Human        | -          | ✔️        | -       | -         | ✔️        | 1967/657/656                    | 158.36/1823.71                |
+| **Term**   | I    | Website                    | zh           | Auto & Human        | ✔️ ✔️       | -        | -       | -         | -        | 3,015/1,005/1,005               | 15.26/13.44                   |
+|            | II   | Website                    | cross        | Auto & Human        | ✔️ ✔️       | -        | -       | -         | -        | 24,786/8,262/8,262              | 6.38/12.91                    |
+|            | III  | AskAPatient                | en           | Auto                | ✔️ ✔️       | -        | -       | -         | -        | 5,051/2,748/4,137               | 4.36/4.03                     |
+|            | IV   | SMM4H-17                   | en           | Auto                | ✔️ ✔️       | -        | -       | -         | -        | 2,124/709/1,194                 | 4.20/5.45                     |
+|            | V    | TwADR-L                    | en           | Auto                | ✔️ ✔️       | -        | -       | -         | -        | 3,204/656/988                   | 4.32/4.51                     |
+| **EHR**    | I    | Self-built                 | zh           | Auto & Human        | -          | ✔️        | ✔️       | -         | -        | 2,097/718/721                   | 45.98/69.27                   |
+|            | II   | Website                    | zh           | Auto & Human        | -          | ✔️        | -       | ✔️        | -        | 1,709/570/570                   | 48.17/191.72                  |
+|            | III  | Website                    | zh           | Auto & Human        | -          | -        | ✔️       | ✔️        | -        | 1,692/564/564                   | 71.37/191.72                  |
+|            | IV   | Website                    | zh           | Auto & Human        | -          | ✔️        | -       | -         | ✔️        | 1,229/410/410                   | 72.62/976.30                  |
+| **Dialogue** | I    | Qnorm                      | zh           | Auto                | -          | ✔️ ✔️       | -       | -         | -        | 959/320/320                     | 93.63/100.18                  |
+|            | II   | MeQSum                     | en           | Auto                | -          | ✔️        | -       | ✔️        | -        | 600/200/200                     | 13.69/81.41                   |
+|            | III  | Chinese-medical-dialogue   | zh           | Auto & Human        | -          | ✔️ ✔️       | -       | -         | -        | 1,800/600/600                   | 87.46/85.31                   |
+
+
