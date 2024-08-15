@@ -69,7 +69,7 @@ We selected the traditional information retrieval method BM25, recent state-of-t
 Install via pip:
 
 ```python
-$ git https://github.com/JOHNNY-fans/MedEureka.git
+$ git clone https://github.com/JOHNNY-fans/MedEureka.git
 $ cd MedEureka
 $ pip install -r requirements.txt
 ```
