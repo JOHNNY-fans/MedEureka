@@ -1,0 +1,1 @@
+huggingface-cli download --repo-type dataset --resume-download Johnnyfans/medeureka_sup_train --local-dir Johnnyfans/medeureka_sup_train
