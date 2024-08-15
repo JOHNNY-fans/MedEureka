@@ -61,7 +61,7 @@ We selected the traditional information retrieval method BM25, recent state-of-t
 
 ## Overall Evaluation Results
 <div align="center">
-  <img src="./figure/radar.png" width="960px">
+  <img src="./figure/Radar.png" width="960px">
 </div>
 
 ## Installation
