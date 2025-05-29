@@ -80,3 +80,27 @@ Tested with python versions 3.10, cuda-toolkit 12.1
 
 We will provide access to the finetuned baseline models in the future.
 
+## Citation
+Thank you for your interest, if you use this project, please give us a 🌟 and cite the following paper:
+
+```bibtex 
+@inproceedings{fan-etal-2025-medeureka,
+    title = "{M}ed{E}ureka: A Medical Domain Benchmark for Multi-Granularity and Multi-Data-Type Embedding-Based Retrieval",
+    author = "Fan, Yongqi  and
+      Wang, Nan  and
+      Xue, Kui  and
+      Liu, Jingping  and
+      Ruan, Tong",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.154/",
+    pages = "2825--2851",
+    ISBN = "979-8-89176-195-7",
+    abstract = "Embedding-based retrieval (EBR), the mainstream approach in information retrieval (IR), aims to help users obtain relevant information and plays a crucial role in retrieval-augmented generation (RAG) techniques of large language models (LLMs). Numerous methods have been proposed to significantly improve the quality of retrieved content and many generic benchmarks are proposed to evaluate the retrieval abilities of embedding models. However, texts in the medical domain present unique contexts, structures, and language patterns, such as terminology, doctor-patient dialogue, and electronic health records (EHRs). Despite these unique features, specific benchmarks for medical context retrieval are still lacking. In this paper, we propose MedEureka, an enriched benchmark designed to evaluate medical-context retrieval capabilities of embedding models with multi-granularity and multi-data types. MedEureka includes four levels of granularity and six types of medical texts, encompassing 18 datasets, incorporating granularity and data type description to prompt instruction-fine-tuned text embedding models for embedding generation. We also provide the MedEureka Toolkit to support evaluation on the MedEureka test set. Our experiments evaluate state-of-the-art open-source and proprietary embedding models, and fine-tuned classical baselines, providing a detailed performance analysis. This underscores the challenges of using embedding models for medical domain retrieval and the need for further research. Our code and data are released in the repository: \url{https://github.com/JOHNNY-fans/MedEureka}."
+}
