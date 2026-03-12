@@ -31,6 +31,39 @@ Welcome to MedEureka, an enriched medical benchmark for Multi-Granularity and Mu
 
 Here are the dataset statistics and descriptions. The columns represent the annotation method (auto-generated or human), the number of examples, the granularity, and the average length of both query and target.
 
+### Dataset Folder-to-ID Mapping
+
+To make the dataset organization easier to understand, the following table shows how each dataset folder corresponds to its benchmark **task category** and **dataset ID**.
+
+| Folder | Task | ID |
+|--------|------|----|
+| `Table_zh` | Table | I |
+| `Table_en` | Table | II |
+| `Study_zh` | Literature | I |
+| `Study_en` | Literature | II |
+| `KB_para_zh` | KB | I |
+| `KB_doc_zh` | KB | II |
+| `Symptom_sign_zh` | Term | I |
+| `Disease_dignosis_zh` | Term | I |
+| `Clinical_examination_zh` | Term | I |
+| `Procedure_operation_zh` | Term | I |
+| `Symptom_sign_cross` | Term | II |
+| `Disease_dignosis_cross` | Term | II |
+| `Clinical_examination_cross` | Term | II |
+| `Procedure_operation_cross` | Term | II |
+| `AskAPatient_en` | Term | III |
+| `SMM4H-17_en` | Term | IV |
+| `TwADR-L_en` | Term | V |
+| `EHR_query2sql_zh` | EHR | I |
+| `EHR_query2para_zh` | EHR | II |
+| `EHR_sql2para_zh` | EHR | III |
+| `EHR_query2doc_zh` | EHR | IV |
+| `Dialogue_qnorm_zh` | Dialogue | I |
+| `Dialogue_en` | Dialogue | II |
+| `Dialogue_zh` | Dialogue | III |
+
+This mapping is used to identify the benchmark subset corresponding to each dataset folder in the repository.
+
 ## Baselines
 We selected the traditional information retrieval method BM25, recent state-of-the-art embedding models, and some advanced instruction-fine-tuned embedding models as baselines. Meanwhile, we chose two mainstream supervised training methods, SimCSE and SBERT, to train on the MedEureka dataset as training baselines. The basic information for these models are as follows:
 
